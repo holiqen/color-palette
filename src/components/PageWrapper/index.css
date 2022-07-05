@@ -1,0 +1,19 @@
+.page-wrapper {
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: opacity 500ms ease-in-out;
+}
+
+.page-wrapper-enter {
+    opacity: 0;
+}
+
+.page-wrapper-enter-active {
+    opacity: 1;
+}
+
+.page-wrapper-exit-active {
+    opacity: 0;
+}

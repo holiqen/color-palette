@@ -1,0 +1,49 @@
+.mini-palette {
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.5rem;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.mini-palette:hover svg {
+    opacity: 1;
+}
+
+.colors {
+    background-color: #dae1e4;
+    height: 150px;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mini-colors {
+    height: 25%;
+    width: 20%;
+}
+
+.title-and-emoji-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.title {
+    margin: 0 0.5rem 0 0;
+    color: black;
+    font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.emoji {
+    margin: 0;
+    font-size: 1.5rem;
+}
